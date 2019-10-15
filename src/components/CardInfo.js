@@ -28,11 +28,11 @@ export default class CardInfo extends Component{
             <div>
                 </div>
             </div>
-            <div>From: {`${this.props.data.city}, ${this.props.data.country}`}</div>
-            <div>Job Title: {this.props.data.title}</div>
-            <div>Employer: {this.props.data.employer}</div>
+            <div><span>From: </span>{`${this.props.data.city}, ${this.props.data.country}`}</div>
+            <div><span>Job Title:</span> {this.props.data.title}</div>
+            <div><span>Employer: </span>{this.props.data.employer}</div>
             <br></br>
-            <div>Favorite Movies:
+            <div><span>Favorite Movies:</span>
             <ol>{this.props.data.favoriteMovies.map(movie => (
                 <li>{movie}</li>
             ))}</ol>
