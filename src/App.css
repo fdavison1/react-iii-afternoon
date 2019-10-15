@@ -11,21 +11,27 @@ nav {
   padding: 25px;
   text-align: left;
   font-weight: 800;
+  margin-bottom: 100px;
 }
 
 .numbers {
   display: flex;
-  justify-content: flex-end;
-  margin: 25px;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 90vh; */
+  /* margin: 25px; */
   font-size: 2rem;
   font-weight: 800;
+  /* border: solid red; */
 }
 
 .card {
-  height: 50vh;
-  width: 70vw;
+  display: inline-block;
+  height: 60vh;
+  width: 80vw;
   background: white;
-  margin: 50px auto;
+  margin: 10px auto;
+  padding: 5px;
 }
 
 footer {
@@ -38,15 +44,16 @@ footer {
   padding-bottom: 200px;
 }
 
-/* .buttons {
-  display: inline-block;
-  padding: 0 auto;
-} */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
 
 button {
   background: rgb(85,164,213);
   padding: 15px;
-  /* width: 100px; */
   height: 50px;
   border-radius: 10px;
   border: 0;
@@ -55,8 +62,9 @@ button {
   font-size: 1.25rem;
 }
 
-.previous, .next {
-  /* width: 150px; */
-  color: white;
-  font-weight: 600;
+h2 {
+  text-decoration: underline;
+  text-decoration-color: rgb(85,164,213);
 }
+
+
