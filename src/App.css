@@ -1,22 +1,62 @@
-.App {
-  text-align: center;
+
+
+.app {
+  background-color: rgb(34,34,34);
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
+
+nav {
+  background: rgb(85,164,213);
+  padding: 25px;
+  text-align: left;
+  font-weight: 800;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.numbers {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  margin: 25px;
+  font-size: 2rem;
+  font-weight: 800;
 }
 
-.App-link {
-  color: #09d3ac;
+.card {
+  height: 50vh;
+  width: 70vw;
+  background: white;
+  margin: 50px auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 50px;
+  width: 80vw; */
+  font-size: 1.5rem;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+/* .buttons {
+  display: inline-block;
+  padding: 0 auto;
+} */
+
+button {
+  background: rgb(85,164,213);
+  padding: 15px;
+  /* width: 100px; */
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  margin: 10px;
+  font-size: 1.25rem;
+}
+
+.previous, .next {
+  /* width: 150px; */
+  color: white;
+  font-weight: 600;
 }
